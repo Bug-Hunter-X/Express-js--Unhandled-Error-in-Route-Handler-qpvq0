@@ -1,0 +1,3 @@
+# Express.js Unhandled Error in Route Handler
+
+This repository demonstrates a common error in Express.js applications: failure to handle errors properly in route handlers. The `bug.js` file contains code that makes a database call without proper error handling, and fails to send appropriate error responses to the client. The `bugSolution.js` file provides a corrected version with improved error handling.
